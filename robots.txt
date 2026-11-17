@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Mencegah mesin pencari mengindeks folder sensitif atau sistem (sesuaikan dengan struktur situs Anda)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /dashboard/
+Disallow: /api/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+# Lokasi Sitemap XML (ganti jika URL sitemap Anda berbeda)
+Sitemap: https://a.zobec.cloud/sitemap.xml
